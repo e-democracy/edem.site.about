@@ -32,7 +32,7 @@ setup(
     url='http://www.e-democracy.org/',
     license='GPL 3',
     packages=find_packages(exclude=['ez_setup']),
-    namespace_packages=['edem', 'edem.group', 'edem.group.messages'],
+    namespace_packages=['edem', 'edem.site',],
     include_package_data=True,
     zip_safe=False,
     install_requires=[

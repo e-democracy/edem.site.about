@@ -3,6 +3,15 @@
   xmlns:browser="http://namespaces.zope.org/browser"
   xmlns:five="http://namespaces.zope.org/five">
 
-    
+   <browser:resource
+    name="gs-site-about-home-20140313.js"
+    layer="edem.skin.interfaces.IEDemSkin"
+    file="browser/javascript/about.js"
+    permission="zope2.Public" />
+  <browser:resource
+    name="gs-site-about-home-min-20140313.js"
+    layer="edem.skin.interfaces.IEDemSkin"
+    file="browser/javascript/about-min.js"
+    permission="zope2.Public" />   
 </configure>
 

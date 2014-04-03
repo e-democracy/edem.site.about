@@ -17,8 +17,10 @@ Introduction
 ===========
 
 This egg customizes the about box on the homepage of E-Democracy forums
-provided by `gs.site.about`_. Specifically, it makes the about box expand by
-default.
+provided by `gs.site.about`_, which makes use of the More widget provided by
+`gs.content.js.more`_. 
+
+Specifically, it makes the about box expand by default.
 
 Resources
 =========
