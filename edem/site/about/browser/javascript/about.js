@@ -9,9 +9,10 @@
 jQuery.noConflict() 
 
 function gs_site_home_about_init () {
-    var about_home_id = '#gs-site-about-home', about_home_more_button = about_home_id + " .gs-content-js-more-buttons-more";
+    var about_home_id = '#gs-site-about-home', about_widget = jQuery(about_home_id);
     GSMoreWidget(about_home_id);
-    jQuery(about_home_more_button+":visible").click();
+    about_widget.find('.gs-content-js-more-buttons-more:visible').click();
+    about_widget.find('.gs-content-js-more-buttons').addClass('hide');
 }
 
 jQuery(window).load( function () {
